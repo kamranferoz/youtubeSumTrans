@@ -18,7 +18,7 @@ with st.sidebar:
                 [Langchain](https://github.com/hwchase17/langchain)\n
 
                 #### Source code:
-                [DIDX Bot!](https://github.com/kamranferoz/youtubeSumTrans)
+                [YouTube Sum/Trans!](https://github.com/kamranferoz/youtubeSumTrans)
                 """)
 st.markdown(
     "<style>#MainMenu{visibility:hidden;}</style>",
