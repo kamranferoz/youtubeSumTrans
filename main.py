@@ -8,7 +8,7 @@ openai.api_key =  st.secrets["OPENAI_API_KEY"]
 
 # Include sidebar with credentials
 with st.sidebar:
-    st.markdown('Chat With DIDX.net (V 0.1)')
+    st.markdown('YouTube video summarizer/translator (V 0.2)')
     st.markdown(""" 
                 #### Let's contact:
                 [Kamran Feroz](https://www.linkedin.com/in/kamranferoz/)
