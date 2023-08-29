@@ -5,7 +5,26 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 openai.api_key =  st.secrets["OPENAI_API_KEY"]
-                 
+
+# Include sidebar with credentials
+with st.sidebar:
+    st.markdown('Chat With DIDX.net (V 0.1)')
+    st.markdown(""" 
+                #### Let's contact:
+                [Kamran Feroz](https://www.linkedin.com/in/kamranferoz/)
+
+                #### Powered by:
+                [OpenAI](https://openai.com/)
+                [Langchain](https://github.com/hwchase17/langchain)\n
+
+                #### Source code:
+                [DIDX Bot!](https://github.com/kamranferoz/youtubeSumTrans)
+                """)
+st.markdown(
+    "<style>#MainMenu{visibility:hidden;}</style>",
+    unsafe_allow_html=True)
+
+
 def get_language_code(language):
     language_codes = {
         "English": "en",
