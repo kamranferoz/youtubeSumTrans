@@ -3,10 +3,9 @@ import openai
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-# from dotenv import load_dotenv, find_dotenv
 
-openai.api_key = st.secrets["OPENAI-API-KEY"]
-
+openai.api_key =  st.secrets["OPENAI-API-KEY"]
+                 
 def get_language_code(language):
     language_codes = {
         "English": "en",
