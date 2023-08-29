@@ -10,7 +10,7 @@ openai.api_key =  st.secrets["OPENAI_API_KEY"]
 with st.sidebar:
     st.markdown('YouTube video summarizer/translator (V 0.2)')
     st.markdown(""" 
-                #### Let's contact:
+                #### Let's connect:
                 [Kamran Feroz](https://www.linkedin.com/in/kamranferoz/)
 
                 #### Powered by:
