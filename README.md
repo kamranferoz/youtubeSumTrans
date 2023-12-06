@@ -13,3 +13,5 @@ The transcript is then summarized and translated into the selected language usin
 The summarized text and translated transcript are displayed to the user. The program also includes a progress bar and status text to keep the user informed about the process.
 
 In the sidebar, the program provides links to the developer's LinkedIn profile, the source code of the application, and the libraries used (OpenAI and Langchain). The main menu of Streamlit is hidden for a cleaner user interface.
+
+The sample app can be found at https://yousum.streamlit.app/
